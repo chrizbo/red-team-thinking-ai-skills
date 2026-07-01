@@ -1,0 +1,32 @@
+---
+name: four-ways-of-seeing-ai
+description: Builds a four-quadrant comparison between how a user framed a problem and how the AI implicitly framed it in its response, surfacing where the model silently substituted its own framing or assumed intent the user never stated. Use when a user wants to check whether an AI's answer actually addresses their real question and context, or explicitly asks for this comparison.
+---
+
+# Four Ways of Seeing (user vs. AI framing)
+
+This compares two framings of the same exchange, not two people's opinions of a third party.
+
+## Step 1: Get both halves
+
+Get (a) the user's original question or prompt, including whatever context they gave, and (b) the AI's response to it.
+
+## Step 2: Fill the four quadrants
+
+1. **How the user sees their own situation** — based only on what they actually wrote as context, not what you'd guess.
+2. **How the AI's response implicitly framed the situation** — read between the lines of the answer: what problem did it act like it was solving?
+3. **How the user's framing would judge the AI's answer** — does it fit their actual situation, or does it feel generic, or like it solved an easier adjacent problem?
+4. **What the AI's framing assumed about the user** — about their goals, constraints, expertise, or preferences that were never stated.
+
+## Step 3: Compare across quadrants
+
+- Compare quadrants 1 and 2 for silent reframing — where the AI quietly answered a different question than the one asked.
+- Compare quadrants 3 and 4 for assumed intent — where the AI filled gaps with a guess about the user instead of asking.
+
+## Step 4: List the concrete mismatches
+
+For each gap found, write the specific mismatch, then a corrected prompt or added context the user could feed back to close it.
+
+## Step 5: Human checkpoint
+
+Ask the user: of these mismatches, which one — left uncorrected — would have led to the worst decision? That's the one to fix before acting on the AI's answer.
