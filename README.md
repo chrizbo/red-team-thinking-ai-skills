@@ -24,7 +24,7 @@ prompts/<slug>.md           generated — plain text for Gemini Gems or pasting 
 scripts/build_variants.py   regenerates the three generated formats from skills/*/SKILL.md
 ```
 
-Edit `skills/<slug>/SKILL.md`, then run `python3 scripts/build_variants.py` to regenerate everything else. Don't hand-edit the generated files — they'll be overwritten.
+Edit `skills/<slug>/SKILL.md`, then run `python3 scripts/build_variants.py` to regenerate everything else. Don't hand-edit the generated files — they'll be overwritten. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full editing workflow.
 
 ## Using a skill
 
