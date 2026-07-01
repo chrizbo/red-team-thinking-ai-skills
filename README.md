@@ -26,17 +26,9 @@ scripts/build_variants.py   regenerates the three generated formats from skills/
 
 Edit `skills/<slug>/SKILL.md`, then run `python3 scripts/build_variants.py` to regenerate everything else. Don't hand-edit the generated files — they'll be overwritten. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full editing workflow.
 
-## Using a skill
+## Getting and installing the skills
 
-**Claude Code / Claude Desktop:** copy or symlink the folder into `~/.claude/skills/` (personal, all projects) or `.claude/skills/` inside a project, then invoke with `/<skill-name>` or let Claude trigger it automatically.
-
-**Codex CLI:** copy the folder into `~/.codex/skills/` (personal) or `.codex/skills/` (project), then invoke with `$<skill-name>` or let Codex trigger it automatically.
-
-**Gemini CLI:** copy the relevant `.toml` file from `gemini/commands/` into `~/.gemini/commands/` (global) or `<project>/.gemini/commands/` (project), then run `/commands reload` and invoke with `/<skill-name>`.
-
-**GitHub Copilot (Chat / CLI):** copy the relevant `.prompt.md` file from `copilot/prompts/` into `.github/prompts/` in your repo, then invoke with `/<skill-name>` in Copilot Chat.
-
-**Gemini Gems or any other chat tool:** paste the contents of the matching file in `prompts/` directly into the Gem's instructions field, or into the chat as a message.
+See [INSTALL.md](INSTALL.md) for copy-paste steps to get this repo and install the skills into Claude Code/Desktop, Codex CLI, Gemini CLI, GitHub Copilot, or Gemini Gems/any other chat tool.
 
 ## Course context
 
