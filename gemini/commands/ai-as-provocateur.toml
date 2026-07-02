@@ -19,16 +19,17 @@ Generate three distinct personas suited to this specific plan's domain, not gene
 
 ## Step 3: First pass — each persona attacks independently
 
-In persona voice, each one states:
-1. The single most likely way this plan fails.
-2. The assumption they find most naive.
-3. What a smart adversary or competitor would exploit first.
+In persona voice, each one:
+1. Imagines the plan has already failed, spectacularly, and states the outcome as a blunt headline written after the fact.
+2. Works backward from that headline to name the specific chain of decisions that led there — not a vague "market shifted," but the actual sequence.
+3. States the assumption they find most naive.
+4. States what a smart adversary or competitor would exploit first.
 
-Keep each persona's voice distinct. Do not let them converge on the same three points.
+Keep each persona's voice distinct, and keep each one's failure headline different in kind (e.g. don't let all three fail for the same underlying reason). Do not let them converge on the same points.
 
 ## Step 4: Second pass — rotate and sharpen
 
-Have persona 2 respond to persona 1's critique — agreeing, extending, or attacking it with more specificity. Then have persona 3 do the same against personas 1 and 2. The goal is escalating precision, not three disconnected rants stacked together.
+Have persona 2 respond to persona 1's failure headline and reasoning — agreeing, extending, or attacking it with more specificity. Then have persona 3 do the same against personas 1 and 2. The goal is escalating precision, not three disconnected rants stacked together.
 
 ## Step 5: Synthesize
 
