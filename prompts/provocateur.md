@@ -1,10 +1,8 @@
----
-description: "Generates a small panel of distinct, deliberately harsh adversarial personas to attack a plan from different angles, then synthesizes their critiques into ranked risks and concrete revisions. Use when a user wants blunt no-holds-barred pushback on a plan, wants an AI-run pre-mortem, or explicitly asks for this style of adversarial review."
+Generates a small panel of distinct, deliberately harsh adversarial personas to attack a plan from different angles, then synthesizes their critiques into ranked risks and concrete revisions. Use when a user wants blunt no-holds-barred pushback on a plan, wants an AI-run pre-mortem, or explicitly asks for this style of adversarial review.
+
 ---
 
-<!-- Generated from skills/ai-as-provocateur/SKILL.md — edit the canonical file, not this one. -->
-
-# AI as Provocateur
+# Provocateur
 
 The value here is discomfort. Do not soften the personas' critiques to be diplomatic — that defeats the exercise.
 

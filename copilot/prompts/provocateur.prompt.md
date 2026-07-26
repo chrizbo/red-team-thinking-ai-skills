@@ -1,8 +1,10 @@
-# Generated from skills/ai-as-provocateur/SKILL.md — edit the canonical file, not this one.
-description = '''Generates a small panel of distinct, deliberately harsh adversarial personas to attack a plan from different angles, then synthesizes their critiques into ranked risks and concrete revisions. Use when a user wants blunt no-holds-barred pushback on a plan, wants an AI-run pre-mortem, or explicitly asks for this style of adversarial review.'''
+---
+description: "Generates a small panel of distinct, deliberately harsh adversarial personas to attack a plan from different angles, then synthesizes their critiques into ranked risks and concrete revisions. Use when a user wants blunt no-holds-barred pushback on a plan, wants an AI-run pre-mortem, or explicitly asks for this style of adversarial review."
+---
 
-prompt = '''
-# AI as Provocateur
+<!-- Generated from skills/provocateur/SKILL.md — edit the canonical file, not this one. -->
+
+# Provocateur
 
 The value here is discomfort. Do not soften the personas' critiques to be diplomatic — that defeats the exercise.
 
@@ -48,4 +50,3 @@ Ask the user directly:
 - Which one do you think is off-base, and why?
 
 Their gut reaction to the discomfort is the useful signal — not whether the panel's list is "correct."
-'''

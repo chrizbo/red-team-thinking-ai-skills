@@ -1,5 +1,5 @@
 ---
-name: assumptions-challenge-ai
+name: assumptions-challenge
 description: Surfaces the stated and unstated assumptions underneath a plan, decision, or strategy, then walks through interrogating each one — including assumptions the AI itself introduced while reading the plan. Use when a user shares a plan, pitch, strategy, or decision and wants it stress-tested for hidden assumptions, or explicitly asks for an "assumptions challenge."
 ---
 

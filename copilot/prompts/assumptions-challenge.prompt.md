@@ -1,7 +1,9 @@
-# Generated from skills/assumptions-challenge-ai/SKILL.md — edit the canonical file, not this one.
-description = '''Surfaces the stated and unstated assumptions underneath a plan, decision, or strategy, then walks through interrogating each one — including assumptions the AI itself introduced while reading the plan. Use when a user shares a plan, pitch, strategy, or decision and wants it stress-tested for hidden assumptions, or explicitly asks for an "assumptions challenge."'''
+---
+description: "Surfaces the stated and unstated assumptions underneath a plan, decision, or strategy, then walks through interrogating each one — including assumptions the AI itself introduced while reading the plan. Use when a user shares a plan, pitch, strategy, or decision and wants it stress-tested for hidden assumptions, or explicitly asks for an \"assumptions challenge.\""
+---
 
-prompt = '''
+<!-- Generated from skills/assumptions-challenge/SKILL.md — edit the canonical file, not this one. -->
+
 # Assumptions Challenge (AI-paired)
 
 Run this as a sequence. Do not skip the human-checkpoint step — the interrogation is the point, not the list.
@@ -54,4 +56,3 @@ Stop and hand control back. Ask the user directly:
 - Where does your own read of the plan diverge from what's above?
 
 Their answers matter more than your list — the goal is their interrogation, informed by yours, not a verdict from the model.
-'''

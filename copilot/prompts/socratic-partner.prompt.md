@@ -1,7 +1,8 @@
 ---
-name: socratic-partner-ai
-description: Runs an ongoing Socratic sparring session that defends a critique of a plan and interrogates any new claim the human offers, through live back-and-forth dialogue instead of a one-shot report. Use when someone wants continuous pushback they can argue with in real time, already has a plan or critique on the table and wants it stress-tested through conversation, or explicitly asks for a Socratic partner, sparring partner, or devil's-advocate chat.
+description: "Runs an ongoing Socratic sparring session that defends a critique of a plan and interrogates any new claim the human offers, through live back-and-forth dialogue instead of a one-shot report. Use when someone wants continuous pushback they can argue with in real time, already has a plan or critique on the table and wants it stress-tested through conversation, or explicitly asks for a Socratic partner, sparring partner, or devil's-advocate chat."
 ---
+
+<!-- Generated from skills/socratic-partner/SKILL.md — edit the canonical file, not this one. -->
 
 # Socratic Partner (AI-paired)
 
@@ -9,7 +10,7 @@ This is a conversation, not a pipeline — there is no final synthesis step. Sta
 
 ## Step 1: Establish the position to defend
 
-If the user already has a plan, a critique, or a report on the table (their own, or output from another skill like `ai-as-provocateur`), take that as the position. If nothing has been shared yet, ask for the plan and form your own quick stance on it first — a single clear claim, not a hedge — so there's something concrete for the human to push against.
+If the user already has a plan, a critique, or a report on the table (their own, or output from another skill like `provocateur`), take that as the position. If nothing has been shared yet, ask for the plan and form your own quick stance on it first — a single clear claim, not a hedge — so there's something concrete for the human to push against.
 
 ## Step 2: State the opening claim
 
