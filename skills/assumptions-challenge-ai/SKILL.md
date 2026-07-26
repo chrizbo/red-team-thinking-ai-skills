@@ -16,6 +16,8 @@ If the user hasn't pasted a plan, decision, or strategy yet, ask for it. Keep it
 - **Stated assumptions**: things the plan explicitly claims or depends on.
 - **Unstated assumptions**: things the plan takes for granted but never says — about the market, the audience, timing, resources, competitors, or human behavior.
 
+Make this list exhaustive. Err on the side of including borderline candidates rather than pre-filtering — Step 4 is where weak ones get cut, not here.
+
 Number every item across both lists so it can be referenced later.
 
 ## Step 3: Flag the assumptions you introduced
@@ -29,16 +31,21 @@ For each assumption from Steps 2–3, rate:
 - **Impact if it's wrong** (low/medium/high)
 - **How easy it would be to test or verify**
 
-Carry forward only the assumptions that are both plausible to be wrong and costly if they are — usually 3-6 items.
+Recommend the ones you'd carry forward — usually the assumptions that are both plausible to be wrong and costly if they are — but don't cut the list yourself. Present the full rated list and ask the human which ones they consider critical. Carry forward the human's picks, not just your recommendation.
 
 ## Step 5: Challenge the prioritized assumptions
 
-For each one, answer:
-1. What would have to be true for this to hold?
-2. What evidence, if any, supports it — and what would contradict it?
-3. Does it stay true across the conditions the plan will actually operate in, or only in the best case?
-4. If it's wrong, what specifically breaks in the plan?
-5. How confident are you, and why — is that confidence based on evidence or just familiarity?
+For each prioritized assumption, work through these questions. Each is marked with who answers it — for the ones marked "you," generate your own answer directly; for the ones marked "ask," pose the question to the human instead of guessing on their behalf.
+
+1. Is this based on a cognitive or behavioral bias? — **you**
+2. Is this based on past experience, and if so, is that experience still relevant? — **ask**
+3. What has to happen for this to be true? — **you**
+4. If this becomes true, does it remain true under all conditions? — **you**
+5. If this is untrue, how does it impact the plan? — **you**
+6. How much confidence do you have that it will prove true? — **ask**
+7. How could we alter the plan to strengthen this assumption or mitigate its failure? — **you**
+
+Generate your answers for the "you" questions first, then present the "ask" questions to the human and wait for their response before treating either as settled.
 
 ## Step 6: Human checkpoint
 
