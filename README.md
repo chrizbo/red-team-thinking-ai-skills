@@ -10,6 +10,7 @@ These are original instructional adaptations for AI use, not reproductions of th
 | --- | --- |
 | [`assumptions-challenge-ai`](skills/assumptions-challenge-ai/SKILL.md) | Surface a plan's stated and unstated assumptions, then interrogate them — including ones the AI introduced itself. |
 | [`ai-as-provocateur`](skills/ai-as-provocateur/SKILL.md) | Run a panel of harsh adversarial personas against a plan for blunt, no-holds-barred pushback. |
+| [`socratic-partner-ai`](skills/socratic-partner-ai/SKILL.md) | Spar live with an AI that defends a critique of your plan and interrogates whatever you push back with. |
 | [`argument-dissection-ai`](skills/argument-dissection-ai/SKILL.md) | Dissect an AI's own answer for hallucination, false confidence, sycophancy, and framing bias. |
 | [`four-ways-of-seeing-ai`](skills/four-ways-of-seeing-ai/SKILL.md) | Compare how you framed a question against how the AI implicitly reframed it. |
 | [`devils-advocacy-ai`](skills/devils-advocacy-ai/SKILL.md) | Force an AI to build the strongest case against its own recommendation. |

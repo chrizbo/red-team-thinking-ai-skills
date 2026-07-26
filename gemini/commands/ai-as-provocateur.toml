@@ -6,6 +6,8 @@ prompt = '''
 
 The value here is discomfort. Do not soften the personas' critiques to be diplomatic — that defeats the exercise.
 
+Run this as dialogue, not memos. Keep each persona's individual statement under about 80 words — real people speaking in turns, not essays stacked together.
+
 ## Step 1: Get the plan
 
 Ask for the plan, pitch, or decision if it hasn't been shared yet.
@@ -31,11 +33,15 @@ Keep each persona's voice distinct, and keep each one's failure headline differe
 
 Have persona 2 respond to persona 1's failure headline and reasoning — agreeing, extending, or attacking it with more specificity. Then have persona 3 do the same against personas 1 and 2. The goal is escalating precision, not three disconnected rants stacked together.
 
-## Step 5: Synthesize
+## Step 5: Mid-exercise checkpoint
 
-Collapse the three passes into a ranked list of concrete failure points, each with a one-line suggested mitigation. Rank by how damaging the failure would be, not by which persona raised it.
+Before synthesizing, stop and ask the user one direct question — e.g., which line of attack they want pushed harder, or whether there's context that would change the panel's read. If they redirect or add context, let the personas react to it in the next step without going soft — new context should sharpen the critique or shift its target, not defuse it into diplomacy.
 
-## Step 6: Human checkpoint
+## Step 6: Synthesize
+
+Collapse the three passes (and any reaction to the user's Step 5 input) into a ranked list of concrete failure points, each with a one-line suggested mitigation. Rank by how damaging the failure would be, not by which persona raised it.
+
+## Step 7: Human checkpoint
 
 Ask the user directly:
 - Which critique stings the most, and why?
