@@ -27,7 +27,7 @@ Edit `skills/<slug>/SKILL.md`, then run `python3 scripts/build_variants.py` to r
 
 ## Getting and installing the skills
 
-See [INSTALL.md](INSTALL.md) for copy-paste steps to get this repo and install the skills into Claude Code/Desktop, Codex CLI, Gemini CLI, GitHub Copilot, or Gemini Gems/any other chat tool.
+See [INSTALL.md](INSTALL.md) for copy-paste steps to get this repo and install the skills into Claude Code/Desktop, Codex CLI, Gemini CLI, GitHub Copilot, Microsoft 365 Copilot, or Gemini Gems/any other chat tool.
 
 ## Course context
 

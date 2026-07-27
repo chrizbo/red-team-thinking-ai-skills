@@ -86,6 +86,13 @@ cp /path/to/red-team-thinking-ai-skills/copilot/prompts/*.prompt.md .github/prom
 
 In Copilot Chat, type `/` to see the prompt list and pick one, or type `#prompt:` and the file name.
 
+### Microsoft 365 Copilot
+
+M365 Copilot doesn't read files from a repo — there's no slash-command or extension format like Claude Code or Gemini CLI use. Instead, paste the matching file from `prompts/` into one of:
+
+- a **saved prompt** in Copilot Chat ("Create a prompt"), or
+- the **Instructions** field of a declarative agent in Copilot Studio or M365 Agent Builder (8,000 character limit — all four skill prompts fit comfortably under that).
+
 ### Gemini Gems, custom GPTs, or any other chat tool
 
 No install step — open the matching file in `prompts/`, copy the whole thing, and paste it into:
