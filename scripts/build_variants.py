@@ -9,11 +9,15 @@ Generated:
   copilot/prompts/<slug>.prompt.md - GitHub Copilot Chat/CLI prompt file
   prompts/<slug>.md             - plain-text version for Gemini Gems or
                                    pasting into any chat model
+  cowork-plugin/skills/<slug>/SKILL.md - copies for the Cowork plugin bundle
+  dist/red-team-thinking.plugin - installable Cowork plugin (zip of cowork-plugin/)
 
 Run from the repo root: python3 scripts/build_variants.py
 """
 
 import re
+import shutil
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,6 +25,9 @@ SKILLS_DIR = ROOT / "skills"
 GEMINI_DIR = ROOT / "gemini" / "commands"
 COPILOT_DIR = ROOT / "copilot" / "prompts"
 PROMPTS_DIR = ROOT / "prompts"
+COWORK_PLUGIN_DIR = ROOT / "cowork-plugin"
+COWORK_SKILLS_DIR = COWORK_PLUGIN_DIR / "skills"
+DIST_DIR = ROOT / "dist"
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 
@@ -76,6 +83,24 @@ def write_plain_prompt(slug: str, description: str, body: str) -> None:
     (PROMPTS_DIR / f"{slug}.md").write_text(content)
 
 
+def build_cowork_plugin(skill_dirs: list[Path]) -> None:
+    if COWORK_SKILLS_DIR.exists():
+        shutil.rmtree(COWORK_SKILLS_DIR)
+    COWORK_SKILLS_DIR.mkdir(parents=True)
+    for skill_dir in skill_dirs:
+        shutil.copytree(skill_dir, COWORK_SKILLS_DIR / skill_dir.name)
+
+    DIST_DIR.mkdir(exist_ok=True)
+    plugin_path = DIST_DIR / "red-team-thinking.plugin"
+    if plugin_path.exists():
+        plugin_path.unlink()
+    with zipfile.ZipFile(plugin_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for path in sorted(COWORK_PLUGIN_DIR.rglob("*")):
+            if path.is_file() and path.name != ".DS_Store":
+                zf.write(path, path.relative_to(COWORK_PLUGIN_DIR))
+    print(f"[OK] packaged {plugin_path.relative_to(ROOT)}")
+
+
 def main() -> None:
     skill_dirs = sorted(p for p in SKILLS_DIR.iterdir() if (p / "SKILL.md").exists())
     if not skill_dirs:
@@ -89,6 +114,8 @@ def main() -> None:
         write_copilot_prompt(slug, description, body)
         write_plain_prompt(slug, description, body)
         print(f"[OK] generated variants for {slug}")
+
+    build_cowork_plugin(skill_dirs)
 
 
 if __name__ == "__main__":

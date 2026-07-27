@@ -23,7 +23,7 @@ You don't need to move the folder anywhere else — Downloads is fine. The comma
 
 ## 2. Install into your tool
 
-Run the commands below from inside the `red-team-thinking-ai-skills` folder. All three skills install at once.
+Run the commands below from inside the `red-team-thinking-ai-skills` folder. All four skills install at once.
 
 ### Claude Code / Claude Desktop
 
@@ -44,6 +44,18 @@ Copy-Item -Path "skills\*" -Destination "$env:USERPROFILE\.claude\skills\" -Recu
 (The `cp -r` / `mkdir -p` commands above are Mac/Linux syntax and will error in PowerShell — use the Windows block instead.)
 
 Start a new Claude Code session (or restart Claude Desktop). Trigger a skill by typing `/assumptions-challenge` (or any other skill name), or just describe what you want — Claude will pick the right skill on its own.
+
+### Claude Cowork
+
+Cowork doesn't read `~/.claude/skills` — it installs skills as plugins. Skip the clone/download above and instead:
+
+1. Go to the [latest release](https://github.com/chrizbo/red-team-thinking-ai-skills/releases/latest) and download `red-team-thinking.plugin`.
+2. Drag the downloaded file into a Cowork chat, or use the attach button to upload it.
+3. Cowork shows a preview of the plugin's contents — press the button to accept and install it.
+
+All four skills (`assumptions-challenge`, `provocateur`, `socratic-partner`, `no-rubber-stamp`) install at once. Trigger one by typing `/` followed by the skill name, or just describe what you want.
+
+To update later, download the latest release again and reinstall — Cowork plugins aren't updated by `git pull`.
 
 ### Codex CLI
 
@@ -91,7 +103,7 @@ ls ~/.gemini/commands      # Gemini CLI
 
 On Windows you can also just open `C:\Users\<you>\.claude\skills` in File Explorer and look.
 
-Each should list all three skills (`assumptions-challenge`, `provocateur`, `socratic-partner`).
+Each should list all four skills (`assumptions-challenge`, `provocateur`, `socratic-partner`, `no-rubber-stamp`).
 
 ## Getting updates later
 

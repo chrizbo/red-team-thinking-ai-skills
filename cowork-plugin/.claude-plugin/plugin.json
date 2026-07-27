@@ -1,0 +1,12 @@
+{
+  "name": "red-team-thinking",
+  "version": "0.1.0",
+  "description": "AI-paired critical-thinking skills from the Red Team Thinking in the Age of AI course: adversarial personas, Socratic sparring, assumption challenges, and AI-output scrutiny.",
+  "author": {
+    "name": "Chris Butler"
+  },
+  "homepage": "https://github.com/chrizbo/red-team-thinking-ai-skills",
+  "repository": "https://github.com/chrizbo/red-team-thinking-ai-skills",
+  "license": "MIT",
+  "keywords": ["red-team-thinking", "critical-thinking", "pre-mortem", "devils-advocate"]
+}
