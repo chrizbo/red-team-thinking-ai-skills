@@ -9,6 +9,8 @@ These are original instructional adaptations for AI use, not reproductions of th
 | Skill | Use it to... |
 | --- | --- |
 | [`assumptions-challenge`](skills/assumptions-challenge/SKILL.md) | Surface a plan's stated and unstated assumptions, then interrogate them — including ones the AI introduced itself. |
+| [`influencer-engineering`](skills/influencer-engineering/SKILL.md) | Map the stakeholders who could make a plan succeed or fail, rate their support and influence, and draft ways to move opposition toward support. |
+| [`four-ways-of-seeing`](skills/four-ways-of-seeing/SKILL.md) | Build a four-quadrant comparison of how you and a key stakeholder each see yourselves and each other, to surface conflict and alignment. |
 | [`provocateur`](skills/provocateur/SKILL.md) | Run a panel of harsh adversarial personas against a plan for blunt, no-holds-barred pushback. |
 | [`socratic-partner`](skills/socratic-partner/SKILL.md) | Spar live with an AI that defends a critique of your plan and interrogates whatever you push back with. |
 | [`no-rubber-stamp`](skills/no-rubber-stamp/SKILL.md) | Mark up pasted AI output inline for the seven spots where a machine is prone to fail, plus a ranked chat summary. |

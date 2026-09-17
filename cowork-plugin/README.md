@@ -7,6 +7,8 @@ AI-paired critical-thinking skills built for the **Red Team Thinking in the Age 
 | Skill | Use it to... |
 | --- | --- |
 | `assumptions-challenge` | Surface a plan's stated and unstated assumptions, then interrogate them — including ones the AI introduced itself. |
+| `influencer-engineering` | Map the stakeholders who could make a plan succeed or fail, rate their support and influence, and draft ways to move opposition toward support. |
+| `four-ways-of-seeing` | Build a four-quadrant comparison of how you and a key stakeholder each see yourselves and each other, to surface conflict and alignment. |
 | `provocateur` | Run a panel of harsh adversarial personas against a plan for blunt, no-holds-barred pushback. |
 | `socratic-partner` | Spar live with an AI that defends a critique of your plan and interrogates whatever you push back with. |
 | `no-rubber-stamp` | Mark up pasted AI output inline for the seven spots where a machine is prone to fail, plus a ranked chat summary. |

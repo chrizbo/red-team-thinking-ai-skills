@@ -23,7 +23,7 @@ You don't need to move the folder anywhere else — Downloads is fine. The comma
 
 ## 2. Install into your tool
 
-Run the commands below from inside the `red-team-thinking-ai-skills` folder. All four skills install at once.
+Run the commands below from inside the `red-team-thinking-ai-skills` folder. All six skills install at once.
 
 ### Claude Code / Claude Desktop
 
@@ -53,7 +53,7 @@ Cowork doesn't read `~/.claude/skills` — it installs skills as plugins. Skip t
 2. Drag the downloaded file into a Cowork chat, or use the attach button to upload it.
 3. Cowork shows a preview of the plugin's contents — press the button to accept and install it.
 
-All four skills (`assumptions-challenge`, `provocateur`, `socratic-partner`, `no-rubber-stamp`) install at once. Trigger one by typing `/` followed by the skill name, or just describe what you want.
+All six skills (`assumptions-challenge`, `influencer-engineering`, `four-ways-of-seeing`, `provocateur`, `socratic-partner`, `no-rubber-stamp`) install at once. Trigger one by typing `/` followed by the skill name, or just describe what you want.
 
 To update later, download the latest release again and reinstall — Cowork plugins aren't updated by `git pull`.
 
@@ -91,7 +91,7 @@ In Copilot Chat, type `/` to see the prompt list and pick one, or type `#prompt:
 M365 Copilot doesn't read files from a repo — there's no slash-command or extension format like Claude Code or Gemini CLI use. Instead, paste the matching file from `prompts/` into one of:
 
 - a **saved prompt** in Copilot Chat ("Create a prompt"), or
-- the **Instructions** field of a declarative agent in Copilot Studio or M365 Agent Builder (8,000 character limit — all four skill prompts fit comfortably under that).
+- the **Instructions** field of a declarative agent in Copilot Studio or M365 Agent Builder (8,000 character limit — each skill prompt fits comfortably under that).
 
 ### ChatGPT, Claude.ai, Perplexity, Manus, Gemini Gems, or any other chat tool
 
@@ -113,7 +113,7 @@ ls ~/.gemini/commands      # Gemini CLI
 
 On Windows you can also just open `C:\Users\<you>\.claude\skills` in File Explorer and look.
 
-Each should list all four skills (`assumptions-challenge`, `provocateur`, `socratic-partner`, `no-rubber-stamp`).
+Each should list all six skills (`assumptions-challenge`, `influencer-engineering`, `four-ways-of-seeing`, `provocateur`, `socratic-partner`, `no-rubber-stamp`).
 
 ## Getting updates later
 
