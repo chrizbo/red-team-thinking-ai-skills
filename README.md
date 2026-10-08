@@ -31,6 +31,12 @@ Edit `skills/<slug>/SKILL.md`, then run `python3 scripts/build_variants.py` to r
 
 See [INSTALL.md](INSTALL.md) for copy-paste steps to get this repo and install the skills into Claude Code/Desktop, Codex CLI, Gemini CLI, GitHub Copilot, Microsoft 365 Copilot, or Gemini Gems/any other chat tool.
 
+## Using these in a class or workshop
+
+- **Copy-paste is the simplest path.** Open the matching file in [`prompts/`](prompts/), paste the whole thing into a chat, and go. Installing skills is optional.
+- **Use a clean chat.** Many assistants carry memory or earlier chats into new ones, which can quietly skew results (for example, pulling in a previous case study). Start from a new or temporary chat, or turn memory off, so the analysis rests only on what you provide.
+- **Teaching mode.** `influencer-engineering` has a mode where the AI infers provisional ratings for a group to challenge. Say it's for training or a group exercise and it will use it.
+
 ## Course context
 
 Built for the **Red Team Thinking in the Age of AI** intensive (Bryce Hoffman, Chris Butler, Scott Henderson), pairing AI with Red Team Thinking to stress-test human plans.
