@@ -1,6 +1,6 @@
 {
   "name": "red-team-thinking",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "AI-paired critical-thinking skills from the Red Team Thinking in the Age of AI course: adversarial personas, Socratic sparring, assumption challenges, stakeholder mapping, perspective-taking, and AI-output scrutiny.",
   "author": {
     "name": "Chris Butler"
